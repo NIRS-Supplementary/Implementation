@@ -20,9 +20,13 @@ Currently, the supported variable types include:
 - Real.
 
 The supported operations include:
-- > (only for Reals and Integers),
-- < (only for Reals and Integers),
-- =,
-- !=,
-- >= (only for Reals and Integers),
-- <= (only for Reals and Integers).
+- greater than ">" (only for Reals and Integers),
+- less than "<" (only for Reals and Integers),
+- equal "==",
+- not equal "!=",
+- greater than or equal ">=" (only for Reals and Integers),
+- less than or equal "<=" (only for Reals and Integers).
+
+Logical operators include:
+- AND "&&"
+- OR "||".
