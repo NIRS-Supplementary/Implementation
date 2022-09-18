@@ -13,7 +13,16 @@ No installation needed. The application is portable.
 To run the app, open DataPetriNetOnSmt.Visualization.exe.
 
 The process models are imported in the extended PNML-format. See Input_Model_Example.pnmlx as an example. 
+
 Currently, the supported variable types include:
 - Integer,
 - Boolean,
 - Real.
+
+The supported operations include:
+- > (only for Reals and Integers),
+- < (only for Reals and Integers),
+- =,
+- !=,
+- >= (only for Reals and Integers),
+- <= (only for Reals and Integers).
